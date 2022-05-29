@@ -1,0 +1,15 @@
+//Count the divisors of a number
+//
+
+function getDivisorsCnt(n){
+    let count = 0;
+    let i = n
+  
+    while (i > 0) {
+      if (n % i === 0) {
+        count++
+      }
+      i--
+    }
+  return count
+}
